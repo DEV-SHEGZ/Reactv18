@@ -1,7 +1,7 @@
 import Avatar from "./avatar";
 
 function profile() {
-  const test = {
+  let test = {
     preson: "male",
     name: "taye",
     age: 18,
@@ -9,6 +9,13 @@ function profile() {
   return (
     <>
       <Avatar main={test} />
+      <Avatar
+        main={
+          (test = {
+            name: "doyin",
+          })
+        }
+      />
     </>
   );
 }
