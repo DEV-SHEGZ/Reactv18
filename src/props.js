@@ -8,7 +8,7 @@ function profile() {
         props={{
           name: "albert",
           age: 23,
-          height: `6 inches`,
+          height: `7 inches`,
           career: "Engineer",
         }}
       />
