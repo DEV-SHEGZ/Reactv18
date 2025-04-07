@@ -1,12 +1,12 @@
 import React from "react";
 
-function Avatar({ name, age, height, career }) {
+function Avatar({ props }) {
   return (
     <>
-      <h1> My name is {name} </h1>
-      <p>I am {age} years old </p>
-      <b> I am {height} feet tall </b>
-      <h3> I am a {career} </h3>
+      <h1> My name is {props.name} </h1>
+      <p>I am {props.age} years old </p>
+      <b> I am {props.height} feet tall </b>
+      <h3> I am a {props.career} </h3>
     </>
   );
 }
