@@ -31,22 +31,21 @@ function conditonal2({ name }) {
 
 function conditonal2({ name }) {
   let Age, Goals;
-  if (name === "Ronlado") {
+  if (name === "Ronaldo") {
     Age = 40;
     Goals = 931;
   } else if (name === "Messi") {
     Age = 36;
     Goals = 800;
   }
-  const newAge = Age;
-  const newGoals = Goals;
-  console.log(newAge, newGoals);
+
+  console.log(Age, Goals);
   return (
     <>
       <h1>{name}</h1>
       <ul>
-        <li>{newAge} years of age </li>
-        <li>{newGoals} number of goals</li>
+        <li>{Age} years of age </li>
+        <li>{Goals} number of goals</li>
       </ul>
     </>
   );
