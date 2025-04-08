@@ -5,7 +5,6 @@ function Render2() {
   return (
     <>
       <Condition2 name="Ronaldo" />;
-      <Condition2 name="Messi" />;
     </>
   );
 }
