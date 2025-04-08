@@ -3,6 +3,7 @@ import "./App.css";
 import Props from "./props";
 import Render from "./render";
 import Render2 from "./rendering2";
+import ListRendering from "./listrendering";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Props />
       <Render />
       <Render2 />
+      <ListRendering />
     </>
   );
 }
