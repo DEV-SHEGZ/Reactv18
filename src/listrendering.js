@@ -5,6 +5,7 @@ function renderList() {
   const other = people.filter((person) => person.profession !== "chemist");
 
   return (
+    /*Still evaluating react v 18 list rendering */
     <>
       <div>
         <h1>Chemists</h1>
